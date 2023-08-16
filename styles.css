@@ -1,0 +1,187 @@
+/* miscellaneous */
+body {
+  margin: 0;
+}
+
+.ul {
+  padding-left: 0;
+}
+
+p {
+  text-align: center;
+  margin: 1% 20% 1% 20%
+    /* border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray; */
+}
+
+/* divs-navbar */
+
+.div-nav {
+  display: flex;
+  height: 40px;
+
+}
+
+.div-nav-name {
+
+  flex-basis: 20%;
+  background-color: lightgrey;
+  margin: 1px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.div-nav-appTitle {
+
+  flex-basis: 60%;
+  background-color: lightgrey;
+  margin: 1px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.div-nav-date {
+  text-align: center;
+  flex-basis: 10%;
+  background-color: lightgrey;
+  margin: 1px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.form-nav-add {
+  margin: 1px;
+  text-align: center;
+  flex-basis: 10%;
+  display: flex;
+}
+
+
+/* divs-body*/
+
+.div-img {
+
+  display: flex;
+  flex-basis: 5%;
+  justify-content: center;
+
+
+}
+
+.div-name {
+  flex-basis: 15%;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.div-date {
+  flex-basis: 10%;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.div-main {
+  display: flex;
+  height: 30px;
+  margin: 2px 0 0 0;
+}
+
+/* buttons */
+
+button:hover {
+  /* opacity: 0.85; */
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+}
+
+button {
+
+  /* transition: 0.1s; */
+  cursor: pointer;
+  border: none;
+}
+
+.btn-stock {
+  display: flex;
+  flex-basis: 60%
+}
+
+.btn-stock-inside {
+  flex-basis: 33%
+}
+
+.btn-stock-inside-center {
+  margin: 0 2px 0 2px
+}
+
+.btn-stock-inside-left {
+  border-radius: 15px 0px 0px 15px;
+}
+
+.btn-stock-inside-right {
+  border-radius: 0px 15px 15px 0px;
+}
+
+.btn-edit {
+  display: flex;
+  flex-basis: 10%;
+}
+
+.btn-edit-inside {
+  flex-basis: 100%;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.form-nav-add-button {
+  flex-basis: 100%;
+  background-color: lightcoral;
+
+}
+
+.grey {
+  background-color: darkgrey;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+@media (max-width:550px) {
+
+
+  .div-nav-appTitle {
+    flex-basis: 40%;
+  }
+
+
+  .btn-stock {
+    flex-basis: 40%
+  }
+
+}

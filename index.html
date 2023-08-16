@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Groceries</title>
+</head>
+
+<body>
+    <div class="div-nav">
+        <div class="div-nav-name">name / category</div>
+        <div class="div-nav-appTitle">fridgeApp</div>
+        <div class="div-nav-date">restock date</div>
+        <form class="form-nav-add" method="GET" action="/new">
+            <button class="form-nav-add-button">add product</button>
+        </form>
+    </div>
+    <ul class="ul">
+                 
+            <p>
+                vegetables
+            </p>
+
+        
+                    <div class="div-main">
+                        
+                            <div class="div-img"><img src="apple-whole-solid.svg" alt=""></div>
+                            <div class="div-name">
+                                Apples
+                            </div>
+                        
+
+                        <form class="btn-stock" method="POST" action="">
+                            <button name='button' class='btn-stock-inside btn-stock-inside-left'
+                                value='none'>none</button>
+                            <button name='button' class='btn-stock-inside btn-stock-inside-center'
+                                value='some'>some</button>
+                            <button name='button' class='btn-stock-inside btn-stock-inside-right'
+                                value='enough'>enough</button>
+                        </form>
+
+                        <span class="div-date">
+                            230798
+                        </span>
+
+                        <form class="btn-edit" method="GET" action="">
+                            <button class='btn-edit-inside'>edit</button>
+                        </form>
+
+                    </div>
+
+                    <div class="div-main">
+                        
+                        <div class="div-img"><img src="circle-half-stroke-solid.svg" alt=""></div>
+                        <div class="div-name">
+                            Watermelon
+                        </div>
+                    
+
+                    <form class="btn-stock" method="POST" action="">
+                        <button name='button' class='btn-stock-inside btn-stock-inside-left'
+                            value='none'>none</button>
+                        <button name='button' class='btn-stock-inside btn-stock-inside-center'
+                            value='some'>some</button>
+                        <button name='button' class='btn-stock-inside btn-stock-inside-right'
+                            value='enough'>enough</button>
+                    </form>
+
+                    <span class="div-date">
+                        230798
+                    </span>
+
+                    <form class="btn-edit" method="GET" action="">
+                        <button class='btn-edit-inside'>edit</button>
+                    </form>
+
+                </div>
+          
+    </ul>
+
+
+</body>
+
+</html>
