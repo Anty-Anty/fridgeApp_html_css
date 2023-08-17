@@ -69,7 +69,7 @@ button {
 }
 
 .div-nav-name {
-  
+  overflow-wrap: break-word;
   flex-basis: 20%;
   
 }
@@ -80,7 +80,7 @@ button {
   flex-basis: 60%;
 
   font-size: 14pt;
-  font-weight: 400;
+  font-weight: 800;
 
  
 }
@@ -220,7 +220,7 @@ p{
 
 .div-nav{
   height:30px;
-  font-size: 8pt;
+  font-size: 7pt;
   line-height: 10px;
 }
 
@@ -244,7 +244,7 @@ p{
   }
 
   .form-nav-add-button {
-    font-size: 8pt;
+    font-size: 7pt;
     line-height: 10px;
   
   }
@@ -253,14 +253,15 @@ p{
 
  
   .div-img {
-    flex-basis: 10%;
-    height:20px;
+    flex-basis: 7%;
+    height:17px;
     padding-top: 10px;
   }
 
   .div-name {
-    font-size: 7pt;
-    flex-basis: 20%;
+    display:flexbox;
+    font-size: 8pt;
+    flex-basis: 23%;
     text-align: left;
   }
 
@@ -269,7 +270,7 @@ p{
   }
 
   .btn-stock-inside {
-    font-size: 8pt;
+    font-size: 7pt;
   }
 
   .div-date {
