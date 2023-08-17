@@ -8,6 +8,10 @@ body {
 }
 
 p {
+  font-weight: 800;
+
+  color:rgb(73, 73, 73);
+
   text-align: center;
   margin: 1% 20% 1% 20%
     /* border-bottom-style: solid;
@@ -15,51 +19,76 @@ p {
   border-bottom-color: lightgray; */
 }
 
+body{
+  font-size: 12pt;
+  font-family: 'Manrope', sans-serif;
+}
+
+button:hover {
+  /* opacity: 0.85; */
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+}
+
+button {
+  font-family: 'Manrope', sans-serif;
+  /* transition: 0.1s; */
+  cursor: pointer;
+  border: none;
+}
+
 /* divs-navbar */
 
 .div-nav {
-  display: flex;
-  height: 40px;
 
+  background-image: linear-gradient(to right,   #CCDAF8,#F7BEB2);
+  /* background-color: lightgrey; */
+
+  display: flex;
+  height: 35px;
+
+  
+  font-size: 12t;
+  font-weight: 300;
+  color:rgb(87, 86, 86);
+
+}
+
+.div-nav>div {
+  /* margin: 1px; */
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 .div-nav-name {
-
+  
   flex-basis: 20%;
-  background-color: lightgrey;
-  margin: 1px;
-
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
+  
 }
 
 .div-nav-appTitle {
-
+  /* font-family: 'Patua One', cursive; */
+  color:white;
   flex-basis: 60%;
-  background-color: lightgrey;
-  margin: 1px;
 
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
+  font-size: 14pt;
+  font-weight: 400;
+
+ 
 }
 
 .div-nav-date {
   text-align: center;
   flex-basis: 10%;
-  background-color: lightgrey;
-  margin: 1px;
-
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
+ 
 }
 
 .form-nav-add {
@@ -69,14 +98,32 @@ p {
   display: flex;
 }
 
+.form-nav-add-button {
+  flex-basis: 100%;
+  background-color: lightcoral;
+
+
+  font-size: 12pt;
+  color:white;
+
+}
+
 
 /* divs-body*/
+
+.div-main {
+  display: flex;
+  height: 40px;
+  margin: 2px 0 0 0;
+}
 
 .div-img {
 
   display: flex;
   flex-basis: 5%;
+  height: 30px;
   justify-content: center;
+  opacity: 0.7;
 
 
 }
@@ -88,6 +135,8 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+  font-weight: 800;
 }
 
 .div-date {
@@ -97,39 +146,27 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+  color:gray
 }
 
 
 
-.div-main {
-  display: flex;
-  height: 30px;
-  margin: 2px 0 0 0;
-}
+
 
 /* buttons */
 
-button:hover {
-  /* opacity: 0.85; */
-  border: solid;
-  border-width: 1px;
-  border-color: gray;
-}
 
-button {
 
-  /* transition: 0.1s; */
-  cursor: pointer;
-  border: none;
-}
-
-.btn-stock {
+.form-stock {
   display: flex;
   flex-basis: 60%
 }
 
 .btn-stock-inside {
-  flex-basis: 33%
+  font-size: 12pt;
+  flex-basis: 33%;
+  padding: 0;
 }
 
 .btn-stock-inside-center {
@@ -137,28 +174,26 @@ button {
 }
 
 .btn-stock-inside-left {
-  border-radius: 15px 0px 0px 15px;
+  border-radius: 20px 0 0 20px;
 }
 
 .btn-stock-inside-right {
-  border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 20px 20px 0px;
 }
 
-.btn-edit {
+.form-edit {
   display: flex;
   flex-basis: 10%;
 }
 
 .btn-edit-inside {
+
+  font-size: 12pt;
   flex-basis: 100%;
-  border-radius: 15px 0px 0px 15px;
+  border-radius: 20px 0px 0px 20px;
 }
 
-.form-nav-add-button {
-  flex-basis: 100%;
-  background-color: lightcoral;
 
-}
 
 .grey {
   background-color: darkgrey;
@@ -174,14 +209,80 @@ button {
 
 @media (max-width:550px) {
 
+p{
+      font-size: 8pt;
+      margin: 1% 25% 1% 30%
+}
 
-  .div-nav-appTitle {
-    flex-basis: 40%;
+  /* *****navbar**** */
+
+.div-nav{
+  height:30px;
+  font-size: 8pt;
+  line-height: 10px;
+}
+
+
+  .div-nav-name {
+    flex-basis: 30%;
+
   }
 
+  .div-nav-appTitle {
+    font-size: 10pt;
+    flex-basis: 50%;
+  }
 
-  .btn-stock {
-    flex-basis: 40%
+  .div-nav-date {
+    flex-basis: 10%;
+  }
+
+  .form-nav-add {
+    flex-basis: 10%;
+  }
+
+  .form-nav-add-button {
+    font-size: 8pt;
+    line-height: 10px;
+  
+  }
+
+  /* ****body**** */
+
+  .div-main{
+    font-size: 8pt;
+  }
+
+  .div-img {
+    flex-basis: 10%;
+    height:20px;
+    padding-top: 10px;
+  }
+
+  .div-name {
+    flex-basis: 20%;
+    text-align: left;
+  }
+
+  .form-stock {
+    flex-basis: 47%
+  }
+
+  .btn-stock-inside {
+    font-size: 8pt;
+  }
+
+  .div-date {
+    font-size: 7pt;
+    flex-basis: 10%;
+  }
+
+  .form-edit {
+    flex-basis: 13%;
+  }
+
+  .btn-edit-inside {
+    font-size: 8pt;
   }
 
 }
