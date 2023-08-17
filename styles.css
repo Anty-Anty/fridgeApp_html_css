@@ -174,10 +174,12 @@ button {
 }
 
 .btn-stock-inside-left {
+  margin: 0 0 0 0;
   border-radius: 20px 0 0 20px;
 }
 
 .btn-stock-inside-right {
+  margin: 0 0 0 0;
   border-radius: 0px 20px 20px 0px;
 }
 
@@ -249,10 +251,7 @@ p{
 
   /* ****body**** */
 
-  .div-main{
-    font-size: 8pt;
-  }
-
+ 
   .div-img {
     flex-basis: 10%;
     height:20px;
@@ -260,6 +259,7 @@ p{
   }
 
   .div-name {
+    font-size: 7pt;
     flex-basis: 20%;
     text-align: left;
   }
