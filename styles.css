@@ -162,9 +162,13 @@ button {
   }
 
   .title-text {
-    font-size: 14pt;
+    font-size: 12pt;
   }
 
+  .name {
+    text-align: left;
+    padding-left: 5px;
+  }
 
   .btn-add {
     font-size: 10pt;
@@ -185,7 +189,7 @@ button {
   }
 
   .nav {
-    font-size: 8pt;
+    font-size: 7pt;
   }
 
   button {
