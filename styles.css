@@ -212,8 +212,6 @@ button {
 
   .btn-add {
     font-size: 8pt;
-    padding-top: 2px;
-
   }
 
   .hidden {
@@ -231,7 +229,7 @@ button {
   }
 
   .title-text {
-    font-size: 12pt;
+    font-size: 10pt;
   }
 
 }
