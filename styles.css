@@ -48,7 +48,7 @@ button {
   gap: 5px;
   justify-content: center;
   align-content: center;
-  padding-top: 5px;
+  padding-top: 7px;
 }
 
 .container-body {
@@ -126,7 +126,7 @@ button {
 }
 
 .title-text {
-  padding-top: 3px;
+  padding-top: 5px;
   font-size: 14pt;
   font-weight: 800;
   color: white;
@@ -152,6 +152,7 @@ button {
 }
 
 @media (max-width:1050px) {
+
 
   .nav {
     font-size: 10pt;
@@ -179,12 +180,16 @@ button {
 
 @media (max-width:650px) {
 
-  body{
-    font-size: 9pt;
+  body {
+    font-size: 8pt;
   }
 
-  button{
-    font-size: 7pt;
+  .nav {
+    font-size: 8pt;
+  }
+
+  button {
+    font-size: 8pt;
   }
 
   .container-nav {
@@ -214,17 +219,17 @@ button {
     display: none;
   }
 
-.img{
-  padding-top: 10px;
-  height:17px;
-}
+  .img {
+    padding-top: 10px;
+    height: 17px;
+  }
 
-.date{
-  font-size: 7pt;
-}
+  .date {
+    font-size: 7pt;
+  }
 
-.title-text {
-  font-size: 12pt;
-}
+  .title-text {
+    font-size: 12pt;
+  }
 
 }
