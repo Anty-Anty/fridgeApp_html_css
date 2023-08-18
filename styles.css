@@ -154,12 +154,19 @@ button {
 
 @media (max-width:1050px) {
 
+  body {
+    font-size: 10pt;
+  }
 
   .nav {
     font-size: 10pt;
     line-height: 10px;
     flex-direction: column;
     padding-top: 0;
+  }
+
+  button {
+    font-size: 10pt;
   }
 
   .title-text {
@@ -173,8 +180,6 @@ button {
 
   .btn-add {
     font-size: 10pt;
-    line-height: 13px;
-
   }
 
   .img {
