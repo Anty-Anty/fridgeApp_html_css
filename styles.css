@@ -160,10 +160,10 @@ button {
 
   .nav {
     font-size: 10pt;
+    line-height: 10px;
     flex-direction: column;
     padding-top: 0;
   }
-
 
   button {
     font-size: 10pt;
