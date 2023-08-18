@@ -8,72 +8,72 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;800&family=Patua+One&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;800&family=Patua+One&display=swap"
+        rel="stylesheet">
+
 
     <title>Groceries</title>
 </head>
 
 <body>
-    <div class="div-nav">
-        <div class="div-nav-name">name / category</div>
-        <div class="div-nav-appTitle">fridgeApp</div>
-        <div class="div-nav-date">restock date</div>
-        <form class="form-nav-add" method="GET" action="/new">
-            <button class="form-nav-add-button">add product</button>
+    <div class="container-nav">
+        <div class="nav">name</div>
+        <div class="nav title-text">fridgeApp</div>
+        <div class="nav"><span class="hidden">restock</span> date</div>
+        <form class="nav padding-top" method="GET" action="/new">
+            <button class="btn-add">add <span class="hidden">product</span></button>
         </form>
     </div>
-    <ul class="ul">
+    <ul>
 
         <p>
             vegetables
         </p>
 
-
-        <div class="div-main">
-
-            <div class="div-img"><img src="apple-whole-solid.svg" alt=""></div>
-            <div class="div-name">
-                Apples
+        <div class="container-body">
+            <div class="div-img-name">
+                <img class="img" src="apple-whole-solid.svg" alt="">
+                <div class="name">
+                    Apples
+                </div>
             </div>
 
-
-            <form class="form-stock" method="POST" action="">
-                <button name='button' class='btn-stock-inside btn-stock-inside-left' value='none'>none</button>
-                <button name='button' class='btn-stock-inside btn-stock-inside-center' value='some'>some</button>
-                <button name='button' class='btn-stock-inside btn-stock-inside-right' value='enough'>enough</button>
+            <form class="form-btn-stock" method="POST" action="">
+                <button name='button' class='btn-stock-left' value='none'>none</button>
+                <button name='button' class='btn-stock-center' value='some'>some</button>
+                <button name='button' class='btn-stock-right' value='enough'>enough</button>
             </form>
 
-            <span class="div-date">
+            <span class="date">
                 230798
             </span>
 
             <form class="form-edit" method="GET" action="">
-                <button class='btn-edit-inside'>edit</button>
+                <button class='btn-edit'>edit</button>
             </form>
 
         </div>
 
-        <div class="div-main">
-
-            <div class="div-img"><img src="circle-half-stroke-solid.svg" alt=""></div>
-            <div class="div-name">
-                Watermelon
+        <div class="container-body">
+            <div class="div-img-name">
+                <img class="img" src="circle-half-stroke-solid.svg" alt="">
+                <div class="name">
+                    Watermelon
+                </div>
             </div>
 
-
-            <form class="form-stock" method="POST" action="">
-                <button name='button' class='btn-stock-inside btn-stock-inside-left' value='none'>none</button>
-                <button name='button' class='btn-stock-inside btn-stock-inside-center' value='some'>some</button>
-                <button name='button' class='btn-stock-inside btn-stock-inside-right' value='enough'>enough</button>
+            <form class="form-btn-stock" method="POST" action="">
+                <button name='button' class='btn-stock-left' value='none'>none</button>
+                <button name='button' class='btn-stock-center' value='some'>some</button>
+                <button name='button' class='btn-stock-right' value='enough'>enough</button>
             </form>
 
-            <span class="div-date">
+            <span class="date">
                 230798
             </span>
 
             <form class="form-edit" method="GET" action="">
-                <button class='btn-edit-inside'>edit</button>
+                <button class='btn-edit'>edit</button>
             </form>
 
         </div>
