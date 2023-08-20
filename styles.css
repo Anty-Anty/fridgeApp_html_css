@@ -82,7 +82,7 @@ button {
 
 
 .btn-add {
-  flex-basis: 100%;
+  flex-basis: 99%;
   background-color: lightcoral;
   font-size: 12pt;
   color: white;
@@ -105,17 +105,17 @@ button {
 }
 
 .btn-stock-left {
-  flex-basis: 33.3%;
+  flex-basis: 33.1%;
   border-radius: 20px 0 0 20px;
 }
 
 .btn-stock-center {
   margin: 0 2px 0 2px;
-  flex-basis: 33.3%;
+  flex-basis: 33.1%;
 }
 
 .btn-stock-right {
-  flex-basis: 33.3%;
+  flex-basis: 33.1%;
   border-radius: 0px 20px 20px 0px;
 }
 
