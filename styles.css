@@ -154,6 +154,19 @@ button {
 
 @media (max-width:1050px) {
 
+  .container-nav {
+    display: grid;
+    grid-template-rows: 40px;
+    grid-template-columns: 3fr 5fr 1fr 1fr;
+  }
+
+  .container-body {
+    margin: 2px 0 0 0;
+    display: grid;
+    grid-template-rows: 40px;
+    grid-template-columns: 3fr 5fr 1fr 1fr;
+  }
+
   body {
     font-size: 10pt;
   }
@@ -176,7 +189,6 @@ button {
   .name {
     text-align: left;
     padding-left: 5px;
-    font-size: 8pt;
   }
 
   .btn-add {
