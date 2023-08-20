@@ -4,7 +4,7 @@ body {
   font-family: 'Manrope', sans-serif;
 }
 
-p {
+.category {
   text-align: center;
   font-weight: 800;
   color: rgb(73, 73, 73);
@@ -56,6 +56,12 @@ button {
   margin: 2px 0 0 0;
   display: grid;
   grid-template-rows: 40px;
+  grid-template-columns: 2fr 6fr 1fr 1fr;
+}
+
+.container-category {
+  display: grid;
+  grid-template-rows: 25px;
   grid-template-columns: 2fr 6fr 1fr 1fr;
 }
 
@@ -157,14 +163,25 @@ button {
   .container-nav {
     display: grid;
     grid-template-rows: 40px;
-    grid-template-columns: 3fr 5fr 1fr 1fr;
+    grid-template-columns: 2.5fr 5.5fr 1fr 1fr;
   }
 
   .container-body {
     margin: 2px 0 0 0;
     display: grid;
     grid-template-rows: 40px;
-    grid-template-columns: 3fr 5fr 1fr 1fr;
+    grid-template-columns: 2.5fr 5.5fr 1fr 1fr;
+  }
+
+  .container-ca {
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 2.5fr 5.5fr 1fr 1fr;
+  }
+
+  .container-category {
+    display: grid;
+    grid-template-columns: 2.5fr 5.5fr 1fr 1fr;
   }
 
   body {
@@ -208,11 +225,11 @@ button {
   }
 
   .nav {
-    font-size: 7pt;
+    font-size: 8pt;
   }
 
   button {
-    font-size: 7pt;
+    font-size: 8pt;
   }
 
   .container-nav {
@@ -228,13 +245,18 @@ button {
     grid-template-columns: 3fr 5fr 1fr 1fr;
   }
 
+  .container-category {
+    display: grid;
+    grid-template-columns: 3fr 5fr 1fr 1fr;
+  }
+
   .name {
     text-align: left;
     padding-left: 3px;
   }
 
   .btn-add {
-    font-size: 7pt;
+    font-size: 8pt;
   }
 
   .hidden {
